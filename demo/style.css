@@ -1,0 +1,300 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@200&display=swap');
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins&display=swap');
+
+/* Arvo */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(206, 197, 197);
+    width: 203px;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 15px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 28px;
+    padding: 35px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color: red; */
+    padding: 0px 0px 0px 20px;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.pic img {
+    height: 58vh;
+}
+
+/* Contectform css */
+
+.contectform {
+    padding: 0 34px;
+    margin: 0 88px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contectform h1 {
+    font-family: 'Poppins', sans-serif;
+    /* padding: 12px 0; */
+}
+
+.contectform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contectform form div input {
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contectform form{
+    margin: 0 40px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* blog css */
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.blogcontainer{
+    margin: 0 88px;
+}
+
+/* About me */
+
+h1 {
+    font-family: 'Arvo', serif;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-top: 60px;
+}
+
+.intro h1 {
+    font-family: 'Arvo', serif;
+    font-size: 48px;
+}
+
+.intro p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+
+.hundred {
+    width: 265px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 29px;
+}
+
+.fifty {
+    width: 125px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 29px;
+}
+
+.twentyfive {
+    width: 75px;
+    background-color: darkcyan;
+    border: 2px solid black;
+    border-radius: 29px;
+}
+
+.eighteen {
+    width: 44px;
+    background-color: darkorange;
+    border: 2px solid black;
+    border-radius: 0;
+    border-radius: 29px;
+}
+
+
+.sidebargo {
+    transform: translate(-337px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 213px;
+}
+
+/* footer */
+
+footer p {
+    text-align: center;
+}
+
+/* Responsive  */
+
+@media (max-width: 1480px) {
+    .buttons{
+        font-size: 6px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .pic{
+        display: none;
+    }
+    .intro, .blogcontainer, .contectform{
+        margin: 50px 8px;
+    }
+    /* .sidebar{
+        transform: translate(-280px, 0px);
+        position: absolute;
+    } */
+}
